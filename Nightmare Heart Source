@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <element name="Nightmare Heart Warlock" type="Source" source="Nightmare Heart Warlock" id="HB_SOURCE_NIGHTMARE_HEART">
+    <setters>
+      <set name="abbreviation">NHW</set>
+      <set name="author">Joseph</set>
+      <set name="url">https://github.com/</set>
+    </setters>
+    <description>
+      <p><strong>Nightmare Heart Warlock</strong> is a homebrew expansion for Dungeons and Dragons 5th Edition that introduces a dark and theatrical patron for warlocks.</p>
+      <h3>Overview</h3>
+      <p>The Nightmare Heart is an ancient, otherworldly entity that feeds on ritual flame, fear, and spectacle. Warlocks who forge a pact with this patron become performers in an endless ritual of crimson fire and terror. They command supernatural flames and teleportation, bringing chaos and fear to their enemies like circus performers on a stage of conflict.</p>
+      <h3>What's Included</h3>
+      <ul>
+        <li><strong>Nightmare Heart Patron:</strong> A complete warlock patron with four expanding features at levels 1, 6, 10, and 14</li>
+        <li><strong>Custom Spells:</strong> Five exclusive spells for Nightmare Heart warlocks (levels 1-5)</li>
+        <li><strong>Eldritch Invocations:</strong> Two patron-specific invocations enhancing combat and utility</li>
+        <li><strong>Pact Boons:</strong> Four unique pact boon options offering different playstyles and mechanical benefits</li>
+      </ul>
+      <h3>Design Philosophy</h3>
+      <p>Nightmare Heart Warlocks emphasize mobility through teleportation, dealing fire and psychic damage, and creating an aura of fear and chaos around themselves. They are performance-based casters who thrive in dynamic combat situations.</p>
+    </description>
+
+  </element>
+
+</elements>
