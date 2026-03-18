@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <element name="Crimson Bat" type="Spell" source="Nightmare Heart Warlock" id="HB_SPELL_CRIMSON_BAT">
+    <supports>Nightmare Heart Warlock</supports>
+    <prerequisite>Nightmare Heart patron, Warlock</prerequisite>
+    <description>
+      <p>You hurl a bolt of crimson flame shaped like a bat at a creature you can see within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 fire damage.</p>
+      <p>Two embers spiral away from the target. Each creature of your choice within 5 feet of the target must make a Dexterity saving throw against your spell save DC, taking 1d6 fire damage on a failed save, or half as much on a successful one.</p>
+    </description>
+    <setters>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="range">60 feet</set>
+      <set name="duration">Instantaneous</set>
+      <set name="components">V,S</set>
+    </setters>
+  </element>
+
+  <element name="Nightmare Cloak" type="Spell" source="Nightmare Heart Warlock" id="HB_SPELL_NIGHTMARE_CLOAK">
+    <supports>Nightmare Heart Warlock</supports>
+    <prerequisite>Nightmare Heart patron, Warlock</prerequisite>
+    <description>
+      <p>You summon a cloak of swirling nightmare flames that surrounds you for the spell's duration. Until the spell ends, opportunity attacks against you are made with disadvantage, and whenever a creature hits you with an attack while within 5 feet of you, that creature takes 1d6 fire damage.</p>
+    </description>
+    <setters>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="range">Self</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="components">V,S</set>
+    </setters>
+  </element>
+
+  <element name="Scarlet Dance" type="Spell" source="Nightmare Heart Warlock" id="HB_SPELL_SCARLET_DANCE">
+    <supports>Nightmare Heart Warlock</supports>
+    <prerequisite>Nightmare Heart patron, Warlock</prerequisite>
+    <description>
+      <p>You perform a ritual dance of crimson flame, teleporting between three creatures within 30 feet of you. For each creature you target, make a melee spell attack. On a hit, that creature takes 3d8 fire damage. You can move up to 15 feet between each attack.</p>
+      <p><strong>At Higher Levels.</strong> When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="level">3</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="range">30 feet</set>
+      <set name="duration">Instantaneous</set>
+      <set name="components">V,S</set>
+    </setters>
+  </element>
+
+  <element name="Nightmare Parade" type="Spell" source="Nightmare Heart Warlock" id="HB_SPELL_NIGHTMARE_PARADE">
+    <supports>Nightmare Heart Warlock</supports>
+    <prerequisite>Nightmare Heart patron, Warlock</prerequisite>
+    <description>
+      <p>You summon visions of a nightmare parade that horrifies creatures around you. Each creature within 20 feet of you that can see you must make a Wisdom saving throw against your spell save DC. On a failed save, a creature takes 3d8 psychic damage and is frightened of you until the end of your next turn. On a successful save, it takes half as much damage and isn't frightened.</p>
+    </description>
+    <setters>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="range">Self (20-foot radius)</set>
+      <set name="duration">Instantaneous</set>
+      <set name="components">V,S</set>
+    </setters>
+  </element>
+
+  <element name="Heart of the Troupe" type="Spell" source="Nightmare Heart Warlock" id="HB_SPELL_HEART_TROUPE">
+    <supports>Nightmare Heart Warlock</supports>
+    <prerequisite>Nightmare Heart patron, Warlock</prerequisite>
+    <description>
+      <p>A crimson lantern manifests and hovers above you for the spell's duration. While the lantern is active, when you cast a spell that deals fire damage, one damage roll of that spell gains a bonus equal to the number of creatures within 10 feet of you that you can see, up to a maximum bonus of 1d8.</p>
+      <p>Additionally, creatures have disadvantage on saving throws against fear that are caused by spells or abilities of the Nightmare Heart Warlock.</p>
+    </description>
+    <setters>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="range">Self</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="components">V,S</set>
+    </setters>
+  </element>
+
+</elements>

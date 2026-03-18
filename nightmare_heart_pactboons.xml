@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <element name="Pact of the Crimson Blade" type="Class Feature" source="Nightmare Heart Warlock" id="HB_PACT_CRIMSON_BLADE">
+    <supports>Warlock Pact Boon</supports>
+    <prerequisite>Nightmare Heart patron, 3rd level</prerequisite>
+    <description>
+      <p>Your patron grants you a magical weapon conjured from crimson nightmare flame. When you summon the weapon, you choose its form from any weapon in the Player's Handbook. The weapon counts as magical for the purpose of bypassing resistance and immunity to nonmagical attacks. Additionally, when you hit a creature with this weapon, you can add 1d4 fire damage to the hit.</p>
+      <p>Whenever you reduce a creature to 0 hit points with this weapon, crimson embers erupt from the fallen creature. Each creature within 5 feet of the creature must make a Dexterity saving throw against your spell save DC, taking fire damage equal to your Charisma modifier on a failed save, or half as much on a successful one.</p>
+    </description>
+  </element>
+
+  <element name="Pact of the Nightmare Lantern" type="Class Feature" source="Nightmare Heart Warlock" id="HB_PACT_LANTERN">
+    <supports>Warlock Pact Boon</supports>
+    <prerequisite>Nightmare Heart patron, 3rd level</prerequisite>
+    <description>
+      <p>Your patron manifests a floating crimson lantern that hovers near you, serving as a familiar and conduit for your power. As a bonus action, you can command the lantern to target a creature you can see within 30 feet of you. The target must make a Wisdom saving throw against your spell save DC. On a failed save, the creature takes 1d8 psychic damage and has disadvantage on the next attack roll it makes before the end of your next turn. On a successful save, it takes half as much damage and doesn't gain disadvantage.</p>
+      <p>You can use this feature a number of times equal to your proficiency bonus per long rest.</p>
+    </description>
+  </element>
+
+  <element name="Pact of the Troupe" type="Class Feature" source="Nightmare Heart Warlock" id="HB_PACT_TROUPE">
+    <supports>Warlock Pact Boon</supports>
+    <prerequisite>Nightmare Heart patron, 3rd level</prerequisite>
+    <description>
+      <p>You gain a spectral performer from the Nightmare Troupe that assists you in battle. The performer appears as a ghostly circus member made of crimson flame, manifesting around you during combat. When you choose this boon, pick one of the following performer types:</p>
+      <p><strong>Flame Juggler.</strong> When you deal fire damage to a creature with a spell or magical ability once per turn, you can deal an additional 1d6 fire damage.</p>
+      <p><strong>Shadow Dancer.</strong> Whenever you teleport using an ability granted by your Nightmare Heart patron, you may move an additional 10 feet before or after the teleportation.</p>
+      <p><strong>Nightmare Violinist.</strong> When a creature fails a saving throw against one of your spells, it takes an additional 1d6 psychic damage.</p>
+      <p>The spectral performer manifests as part of your magic but cannot be targeted, damaged, or harmed by any means.</p>
+    </description>
+  </element>
+
+  <element name="Pact of the Nightmare Grimoire" type="Class Feature" source="Nightmare Heart Warlock" id="HB_PACT_GRIMOIRE">
+    <supports>Warlock Pact Boon</supports>
+    <prerequisite>Nightmare Heart patron, 3rd level</prerequisite>
+    <description>
+      <p>Your patron grants you a Crimson Ritual Tome that contains forbidden mystical performances and rituals of the Nightmare Heart. This tome grants you the following benefits:</p>
+      <ul>
+        <li>You learn two additional warlock cantrips of your choice</li>
+        <li>You can cast <em>Detect Magic</em> and <em>Disguise Self</em> as rituals without expending a spell slot</li>
+        <li>Once per long rest, when you cast a spell that deals fire damage, you can reroll any number of its damage dice. You must use the new results.</li>
+      </ul>
+    </description>
+  </element>
+
+</elements>

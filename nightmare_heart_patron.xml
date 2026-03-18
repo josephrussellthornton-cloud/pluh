@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <element name="Nightmare Heart" type="Class Feature" source="Nightmare Heart Warlock" id="HB_ARCHETYPE_NIGHTMARE_HEART">
+    <supports>Warlock Special, Otherworldly Patron</supports>
+
+    <classlist>
+      <class name="Warlock"/>
+    </classlist>
+
+    <description>
+      <p>The Nightmare Heart is an ancient entity that feeds on ritual flame, fear, and spectacle. Warlocks bound to it are performers in an endless ritual of flame and terror, their very presence becoming a stage for the patron's dark performances.</p>
+      <h3>Patron Features</h3>
+      <p><strong>Crimson Performer (1st Level):</strong> You gain resistance to fire damage and the ability to teleport 10 feet as a bonus action a number of times equal to your proficiency bonus per long rest. When you leave a space by teleporting, creatures within 5 feet take fire damage equal to your Charisma modifier.</p>
+      <p><strong>Nightmare Flames (6th Level):</strong> When you deal fire or psychic damage to a creature, you may cause it to burn with nightmare flame. The creature takes 1d6 fire damage at the start of its next turn. Additionally, you gain resistance to psychic damage.</p>
+      <p><strong>Cloak of the Troupe (10th Level):</strong> Opportunity attacks against you have disadvantage. When a creature misses you with an attack, you may use your reaction to teleport 15 feet.</p>
+      <p><strong>Avatar of Nightmare Flame (14th Level):</strong> You can transform for 1 minute. You gain a flying speed of 40 feet and your spells deal extra fire damage equal to your Charisma modifier. When you teleport, creatures within 10 feet take 2d6 fire damage.</p>
+    </description>
+
+    <rules>
+      <grant type="Archetype Feature" id="HB_FEATURE_CRIMSON_PERFORMER" level="1"/>
+      <grant type="Archetype Feature" id="HB_FEATURE_NIGHTMARE_FLAMES" level="6"/>
+      <grant type="Archetype Feature" id="HB_FEATURE_CLOAK_OF_TROUPE" level="10"/>
+      <grant type="Archetype Feature" id="HB_FEATURE_AVATAR_NIGHTMARE" level="14"/>
+    </rules>
+
+  </element>
+
+  <element name="Crimson Performer" type="Archetype Feature" source="Nightmare Heart Warlock" id="HB_FEATURE_CRIMSON_PERFORMER">
+    <supports>Warlock Feature, 1st Level</supports>
+    <description>
+      <p>Starting at 1st level, you gain resistance to fire damage. Additionally, as a bonus action, you can teleport up to 10 feet to an unoccupied space you can see. When you teleport this way, each creature within 5 feet of the space you leave must make a Dexterity saving throw against your Warlock spell save DC, taking fire damage equal to your Charisma modifier on a failed save, or half as much on a successful one.</p>
+      <p>You can use this teleportation a number of times equal to your proficiency bonus per long rest.</p>
+    </description>
+    <rules>
+      <grant type="Condition" id="CONDITION_RESISTANCE_FIRE" />
+    </rules>
+  </element>
+
+  <element name="Nightmare Flames" type="Archetype Feature" source="Nightmare Heart Warlock" id="HB_FEATURE_NIGHTMARE_FLAMES">
+    <supports>Warlock Feature, 6th Level</supports>
+    <description>
+      <p>At 6th level, when you deal fire or psychic damage to a creature with a spell or other magical effect, you can cause the target to burn with nightmare flame. The creature takes 1d6 fire damage at the start of its next turn. A creature can only suffer from nightmare flame from one source at a time; if it would gain the condition again, the new source determines when the damage triggers.</p>
+      <p>Additionally, you gain resistance to psychic damage.</p>
+    </description>
+    <rules>
+      <grant type="Condition" id="CONDITION_RESISTANCE_PSYCHIC" />
+    </rules>
+  </element>
+
+  <element name="Cloak of the Troupe" type="Archetype Feature" source="Nightmare Heart Warlock" id="HB_FEATURE_CLOAK_OF_TROUPE">
+    <supports>Warlock Feature, 10th Level</supports>
+    <description>
+      <p>At 10th level, you are swathed in the protective magic of the Nightmare Troupe. Opportunity attacks against you are made with disadvantage. Additionally, whenever a creature misses you with an attack roll, you can use your reaction to teleport up to 15 feet to an unoccupied space you can see.</p>
+    </description>
+    <rules/>
+  </element>
+
+  <element name="Avatar of Nightmare Flame" type="Archetype Feature" source="Nightmare Heart Warlock" id="HB_FEATURE_AVATAR_NIGHTMARE">
+    <supports>Warlock Feature, 14th Level</supports>
+    <description>
+      <p>At 14th level, you can transform into an avatar of nightmare flame as an action. You remain in this form for up to 1 minute, until you use an action to end the transformation, or until you fall unconscious.</p>
+      <p>While transformed:</p>
+      <ul>
+        <li>You gain a flying speed of 40 feet</li>
+        <li>When you cast a spell that deals fire damage, you can add your Charisma modifier to one fire damage roll of that spell</li>
+        <li>When you teleport using an ability granted by your patron, each creature within 10 feet of the space you leave must make a Dexterity saving throw against your Warlock spell save DC, taking 2d6 fire damage on a failed save, or half as much on a successful one</li>
+      </ul>
+      <p>You can use this feature once per long rest.</p>
+    </description>
+    <rules/>
+  </element>
+
+</elements>

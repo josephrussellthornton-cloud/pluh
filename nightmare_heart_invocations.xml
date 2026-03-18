@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+
+  <element name="Bat of the Nightmare" type="Invocation" source="Nightmare Heart Warlock" id="HB_INVOCATION_BAT">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>Nightmare Heart patron</prerequisite>
+    <description>
+      <p>Your Eldritch Blast manifests as crimson bats wreathed in spectral flame instead of the usual arcane bolts. Once per turn when you hit a creature with your Eldritch Blast, you can add 1d8 fire damage to that hit. The appearance of your Eldritch Blast is purely cosmetic and does not affect its function.</p>
+    </description>
+  </element>
+
+  <element name="Performers Escape" type="Invocation" source="Nightmare Heart Warlock" id="HB_INVOCATION_ESCAPE">
+    <supports>Eldritch Invocation</supports>
+    <prerequisite>Nightmare Heart patron</prerequisite>
+    <description>
+      <p>When you or a creature you can see within 30 feet of you is hit by an attack, you can use your reaction to teleport up to 20 feet to an unoccupied space you can see. You can use this invocation a number of times equal to your proficiency bonus per short rest.</p>
+    </description>
+  </element>
+
+</elements>
